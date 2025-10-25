@@ -1,5 +1,14 @@
 # Preface {.unnumbered}
+# Development of an Online Quarto Textbook for Stata: Quantitative Research Methods
+### Brown’s Education Department
+
+---
+
+Welcome to the online textbook for **Education 1230** and **Education 2320** at **Brown University**.  
+This project, developed by *Pierre de Galbert* and *Sima Raha*, provides interactive **Stata-based exercises** and open educational resources to support learning in **Quantitative Research Methods**.
+
+Explore the chapters using the sidebar to the left.
+
 
 This is a Quarto book.
-
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
