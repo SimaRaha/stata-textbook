@@ -1,0 +1,16 @@
+chapters/chapter1_data.qmd
+
+# Chapter 1 — Data Basics (Stata)
+
+This chapter demonstrates how to load and describe data in Stata.
+
+<details>
+<summary>Show Stata code</summary>
+
+```{jupyter} stata
+sysuse auto
+describe
+summarize mpg price weight
+list make price mpg if price < 5000
+
+Below we interpret the output and summarize what each command does.
