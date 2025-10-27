@@ -3,10 +3,12 @@ project:
 
 book:
   title: "stata-textbook"
-  author: "Norah Jones"
+  authors: "Norah Jones"
   date: "10/12/2025"
   chapters:
     - index.qmd
+    - chapters/chapter1_data.qmd
+    - chapters/chapter2_regression.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
