@@ -14,7 +14,7 @@
     "href": "chapters/chapter1_data.html",
     "title": "1  Chapter 1 — Data Basics (Stata)",
     "section": "",
-    "text": "This chapter demonstrates how to load and describe data in Stata.\n\n\nShow Stata code\n\n```jgtchqyen stata sysuse auto describe summarize mpg price weight list make price mpg if price &lt; 5000\nWe can discuss model interpretation and coefficient meanings below.",
+    "text": "This chapter demonstrates how to load and describe data in Stata.\n\n\nShow Stata code\n\n```zdunmfeio stata sysuse auto describe summarize mpg price weight list make price mpg if price &lt; 5000\nWe can discuss model interpretation and coefficient meanings below.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1 — Data Basics (Stata)</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "chapters/chapter2_regression.html",
     "title": "2  Chapter 2 — Regression Basics (Stata)",
     "section": "",
-    "text": "This chapter runs a simple regression and explores fitted values.\n\n\nShow Stata code\n\n```abnvzfthw stata sysuse auto regress price mpg weight predict fitted list make price fitted in 1/10",
+    "text": "This chapter runs a simple regression and explores fitted values.\n\n\nShow Stata code\n\n```grqiyrfzz stata sysuse auto regress price mpg weight predict fitted list make price fitted in 1/10",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2 — Regression Basics (Stata)</span>"
     ]
