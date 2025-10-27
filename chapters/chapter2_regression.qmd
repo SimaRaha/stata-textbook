@@ -1,0 +1,12 @@
+# Chapter 2 — Regression Basics (Stata)
+
+This chapter runs a simple regression and explores fitted values.
+
+<details>
+<summary>Show Stata code</summary>
+
+```{jupyter} stata
+sysuse auto
+regress price mpg weight
+predict fitted
+list make price fitted in 1/10
