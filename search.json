@@ -4,29 +4,49 @@
     "href": "index.html",
     "title": "stata-textbook",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\n\n\nDevelopment of an Online Quarto Textbook for Stata: Quantitative Research Methods\n\nBrown’s Education Department\n\nWelcome to the online textbook for Education 1230 and Education 2320 at Brown University.\nThis project, developed by Pierre de Galbert and Sima Raha, provides interactive Stata-based exercises and open educational resources to support learning in Quantitative Research Methods.\nExplore the chapters using the sidebar to the left.\nThis is a Quarto book. To learn more about Quarto books visit https://quarto.org/docs/books.",
     "crumbs": [
       "Preface"
     ]
   },
   {
+    "objectID": "chapters/chapter1_data.html",
+    "href": "chapters/chapter1_data.html",
+    "title": "1  Chapter 1 — Data Basics (Stata)",
+    "section": "",
+    "text": "This chapter demonstrates how to load and describe data in Stata.\n\n\nShow Stata code\n\n```jgtchqyen stata sysuse auto describe summarize mpg price weight list make price mpg if price &lt; 5000\nWe can discuss model interpretation and coefficient meanings below.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1 — Data Basics (Stata)</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2_regression.html",
+    "href": "chapters/chapter2_regression.html",
+    "title": "2  Chapter 2 — Regression Basics (Stata)",
+    "section": "",
+    "text": "This chapter runs a simple regression and explores fitted values.\n\n\nShow Stata code\n\n```abnvzfthw stata sysuse auto regress price mpg weight predict fitted list make price fitted in 1/10",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2 — Regression Basics (Stata)</span>"
+    ]
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "3  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
